@@ -7,7 +7,7 @@ export default function Navbar(props) {
       <div>
         <nav class="navbar navbar-light bg-#2C7F5C">
           <a class="navbar-brand" href="#">
-              <p className="topbar">Get your Cannaby product by Black Friday. {" "}<a href="#" className="topbarhr"> Holiday Shipping Deaadlines</a></p>
+              <p className="topbar">  Get your Cannaby product by Black Friday. {" "}<a href="#" className="topbarhr"> Holiday Shipping Deaadlines</a></p>
         
           </a>
         </nav>
@@ -26,18 +26,18 @@ export default function Navbar(props) {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div>
-            <i class="fas fa-cannabis"></i>
+            
             <a className="navbar-brand" href="#">
               {props.Cannabytext}
             </a>
           </div>
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#"> <i class="fas fa-cannabis"></i>
             Categories
           </a>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="Deals.js">
                   Deals
                 </a>
               </li>
