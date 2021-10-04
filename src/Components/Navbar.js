@@ -5,10 +5,16 @@ export default function Navbar(props) {
   return (
     <>
       <div>
-        <nav class="navbar navbar-light bg-#2C7F5C">
-          <a class="navbar-brand" href="#">
-              <p className="topbar">  Get your Cannaby product by Black Friday. {" "}<a href="#" className="topbarhr"> Holiday Shipping Deaadlines</a></p>
-        
+        <nav className="navbar navbar-light bg-#2C7F5C">
+          <a className="navbar-brand" href="#">
+            <p className="topbar">
+              {" "}
+              Get your Cannaby product by Black Friday.{" "}
+              <a href="#" className="topbarhr">
+                {" "}
+                Holiday Shipping Deaadlines
+              </a>
+            </p>
           </a>
         </nav>
       </div>
@@ -26,23 +32,28 @@ export default function Navbar(props) {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div>
-            
             <a className="navbar-brand" href="#">
               {props.Cannabytext}
             </a>
           </div>
-          <a className="navbar-brand" href="#"> <i class="fas fa-cannabis"></i>
+          <a className="navbar-brand" href="#">
+            {" "}
+            <i className="fas fa-cannabis"></i>
             Categories
           </a>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="Deals.js">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="../Deals.js"
+                >
                   Deals
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="./Wishlist.js">
                   Brands
                 </a>
               </li>
@@ -64,7 +75,4 @@ export default function Navbar(props) {
     </>
   );
 }
-// Navbar.propTypes {
 
-//     Cannaby="Cannaby";
-// }

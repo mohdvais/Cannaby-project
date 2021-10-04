@@ -1,24 +1,28 @@
-
+import React from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Categories from "./Components/Categories";
 import Popular from "./Components/Popular";
 import Trending from "./Components/Trending";
 import FlashSale from "./Components/FlashSale";
-import Footer from "./Footer";
 import Body from './Components/Body';
+import Footer from "./Footer";
 // import login from "./Components/Login";
 // import Categories2 from "./Components/Categories2";
-import Deals from "./Components/Deals";
-
+// import Deals from "./Components/Deals";
+// import Wishlist from "./Components/Wishlist";
+// import VapeProduct from "./Components/VapeProduct";
+// import Productpage from "./Components/Productpage";
 function App() {
   return (
     <>
         <Navbar />
         <Body />
         <div className="title">
+        
         <h3 className="a">Categories</h3>
         <h3 className="b">View All</h3>
+        
       </div>
       <div className="cat3">
         <Categories />
@@ -62,7 +66,9 @@ function App() {
         <Trending />
         <Trending />
       </div>
-
+      {/* <VapeProduct /> */}
+      
+      
       
       <Footer />
       
